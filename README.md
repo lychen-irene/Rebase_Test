@@ -54,7 +54,7 @@ $ git branch --set-upstream-to=origin/main main
 $ git pull --rebase
 ```
 
-8. Eighth, rebase should work successfully and updated refs/heads/main, so we can finally push our local project onto GitHub.
+8. Eighth, rebase should work successfully and updated refs/heads/main, so we can finally push our local project onto GitHub. Note that add option [-u | --set-upstream] for set up tracking info so that you can successfully pull again without specify branches.
 
 ```
 $ git push -u origin main
